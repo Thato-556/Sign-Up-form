@@ -1,8 +1,11 @@
 body {
     display: flex;
     border: 4px solid black;
+    justify-content: space-evenly;
 }
 
 .left_panel {
-    background-image: url(amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
+    background-image: url(yasin-dalkilic-_tQLS7n9Mnw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
