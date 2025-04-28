@@ -1,11 +1,8 @@
+body {
+    display: flex;
+    border: 4px solid black;
+}
 
-/**
- * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
- abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-  }
+.left_panel {
+    background-image: url(amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
+}
