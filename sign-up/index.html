@@ -3,60 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign-up form</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poiret+One&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <!--left side logo and text  -->
-
-    <div class="left_panel">
+ <div class="container">
+    <div class="left-panel">
         <div class="content">
             <img src="odin-lined.png" alt="logo">
             <h1>ODIN</h1>
-        </div>
+        </div>    
     </div>
 
-    <!-- top right heading and copy-->
-    
-    <div class="top_right">
-        <h1>Join Us Today</h1>
-        <p>Be part of something better. Sign up now to get access to exclusive features, updates, and more - all tailored just for you.</p>
-        <p>You know what to do.</p>
-    </div>
-
-    <!-- bottom right form-->
-
-     <div class="bottom_right">
-        <form action="/action_page.php" method="get">
+    <div class="right-panel">
+        <section>
+            <h2>Join Us Today</h2>
+            <p>Be part of something better. Sign up now to get access to exclusive features, updates, and more - all tailored just for you.</p>
+            <p>You know what to do.</p>
+        </section>
+        <form action="/action_page.php" method="post">
+            <fieldset>
             <legend>Let's do this!</legend>
-            <p>
+        
                 <label for="first_name">First Name</label>
                 <input type="text" id="first_name" placeholder="Loki">
-
+    
                 <label for="last_name">Last Name</label>
                 <input type="text" id="last_name" placeholder="Laufeyson">
-            </p>
-            <p>
+            
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="you@mail.com">
+                <input type="email" id="email" placeholder="email@address.com">
             
                 <label for="phone_number">Phone Number</label>
-                <input type="tel" id="phone_number">
-            </p>
-            <p>
+                <input type="tel" id="phone_number" placeholder="078-555-5555">
+            
                 <label for="password">Password</label>
-                <input type="password">
-
+                <input type="password" id="password" placeholder="8+ characters" minlength="8">
+    
                 <label for="confirm_password">Confirm Password</label>
-                <input type="password">
-            </p>
-            <p>
+                <input type="password" id="passwordconf" placeholder="8+ characters" minlength="8">
+            
                 <button type="submit">Create Account</button>
-            </p>
-            <p>Already have an account? <a href="">log in</a></p>
-        </form>  
-     </div>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </fieldset>
+            
+        </form> 
+        </div>
+    
+       
+ </div>   
+
 </body>
 </html>
